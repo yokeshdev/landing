@@ -7,12 +7,7 @@ function LandingPage() {
         <div style={{width:"100%", backgroundColor: "#1e2a38", display:"flex", alignItems:"center",height:"80px"}}>
             <img src={Logo} alt="Logo" style={{maxWidth:"70px",paddingLeft:"15px"}}/>
             <h1 style={{color:"white",paddingLeft:"70px"}}>Cat Inspect </h1>
-            <div className="nav-links" style={{ display: "flex", gap: "60px", alignItems: "center",paddingLeft:"560px" }}>
-                <a href="#home" style={{ color: "white", textDecoration: "none", fontSize: "1.2rem" }}>Home</a>
-                <a href="#features" style={{ color: "white", textDecoration: "none", fontSize: "1.2rem" }}>Features</a>
-                <a href="#about" style={{ color: "white", textDecoration: "none", fontSize: "1.2rem" }}>About</a>
-                <a href="#contact" style={{ color: "white", textDecoration: "none", fontSize: "1.2rem" }}>Contact</a>
-            </div>
+           
         </div>
 
         <div style={{ position: "relative", display: "flex", justifyContent: "center", alignItems: "center", textAlign: "center" }}>
